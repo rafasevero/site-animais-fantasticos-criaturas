@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +7,200 @@
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
-        <img src="./assets/logo_fantastic_beasts.png" alt="Logo do site">
+        <img class="logo" src="./assets/logo_fantastic_beasts.png" alt="Logo do site">
         <ul class="btns-center">
             <li><a href="home.html"><b>HOME</b></a></li>
-            <li><a href="creatures.html"><b>CRIATURAS</b></a></li>
+            <li><a class="active" href="creatures.html"><b>CRIATURAS</b></a></li>
             <li><a href="funfacts.html"><b>CURIOSIDADES</b></a></li>
         </ul>
     </nav>
+
     <main>
         <div class="background-image">
-            <img src="./assets/animais-fantasticos-background.jpg" alt="Fundo com criaturas fantásticas">
-            <div class="background-content">
-                
+            <img class="bg-img" src="./assets/animais-fantasticos-background.jpg" alt="Fundo com criaturas fantásticas">
+
+            <div class="cards">
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/pelucio.webp" alt="Foto do Pelúcio">
+                    </div>
+                    <div class="content-card">
+                        <h2>PELÚCIO</h2>
+                        <p>Pequeno, peludo e louco por tudo que brilha.</p>
+                        <a class="btn" href="pelucio.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/rapinomonio.webp" alt="Foto do Rapinomônio">
+                    </div>
+                    <div class="content-card">
+                        <h2>RAPINOMÔNIO</h2>
+                        <p>Asas azuis deslumbrantes que escondem um veneno poderoso.</p>
+                        <a class="btn" href="rapinomonio.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/tronquilho.webp" alt="Foto do Tronquilho">
+                    </div>
+                    <div class="content-card">
+                        <h2>TRONQUILHO</h2>
+                        <p>Pequeno guardião de galhos e extremamente leal.</p>
+                        <a class="btn" href="tronquilho.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/gira-gira.webp" alt="Foto do Gira-gira">
+                    </div>
+                    <div class="content-card">
+                        <h2>GIRA-GIRA</h2>
+                        <p>Inseto azul cuja picada faz você flutuar.</p>
+                        <a class="btn" href="gira-gira.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/occami.webp" alt="Foto do Occami">
+                    </div>
+                    <div class="content-card">
+                        <h2>OCCAMI</h2>
+                        <p>Serpente emplumada que protege seus ovos de prata.</p>
+                        <a class="btn" href="occami.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/demiguise.webp" alt="Foto do Demiguise">
+                    </div>
+                    <div class="content-card">
+                        <h2>DEMIGUISE</h2>
+                        <p>Tímido, de pelo prateado e mestre da invisibilidade.</p>
+                        <a class="btn" href="demiguise.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/thunderbird.webp" alt="Foto do Thunderbird">
+                    </div>
+                    <div class="content-card">
+                        <h2>THUNDERBIRD</h2>
+                        <p>Ave majestosa que cria tempestades ao voar.</p>
+                        <a class="btn" href="thunderbird.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/murtlap.webp" alt="Foto do Murtlap">
+                    </div>
+                    <div class="content-card">
+                        <h2>MURTLAP</h2>
+                        <p>Parece um rato, mas carrega anêmonas nas costas.</p>
+                        <a class="btn" href="murtlap.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/erumpente.webp" alt="Foto do Erumpente">
+                    </div>
+                    <div class="content-card">
+                        <h2>ERUMPENTE</h2>
+                        <p>Grande, forte e com um chifre explosivo.</p>
+                        <a class="btn" href="erumpente.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/nundu.webp" alt="Foto do Nundu">
+                    </div>
+                    <div class="content-card">
+                        <h2>NUNDU</h2>
+                        <p>Felino gigante e um dos mais perigosos do mundo.</p>
+                        <a class="btn" href="nundu.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/doxy.webp" alt="Foto do Doxy">
+                    </div>
+                    <div class="content-card">
+                        <h2>DOXY</h2>
+                        <p>Pequena, peluda e com uma mordida venenosa.</p>
+                        <a class="btn" href="doxy.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/mooncalf.webp" alt="Foto do Mooncalf">
+                    </div>
+                    <div class="content-card">
+                        <h2>MOONCALF</h2>
+                        <p>Tímido, só sai da toca nas noites de lua cheia.</p>
+                        <a class="btn" href="mooncalf.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/fwooper.webp" alt="Foto do Fwooper">
+                    </div>
+                    <div class="content-card">
+                        <h2>FWOOPER</h2>
+                        <p>Ave colorida cujo canto pode enlouquecer.</p>
+                        <a class="btn" href="fwooper.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/diricawl.webp" alt="Foto do Diricawl">
+                    </div>
+                    <div class="content-card">
+                        <h2>DIRICAWL</h2>
+                        <p>Ave rechonchuda que some num piscar de olhos.</p>
+                        <a class="btn" href="diricawl.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/graphorn.webp" alt="Foto do Graphorn">
+                    </div>
+                    <div class="content-card">
+                        <h2>GRAPHORN</h2>
+                        <p>Gigante de couro resistente e muitos chifres.</p>
+                        <a class="btn" href="graphorn.html">VER MAIS</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card">
+                        <img class="card-photo" src="./assets/grindylow.webp" alt="Foto do Grindylow">
+                    </div>
+                    <div class="content-card">
+                        <h2>GRINDYLOW</h2>
+                        <p>Demônio aquático de dedos longos e traiçoeiros.</p>
+                        <a class="btn" href="grindylow.html">VER MAIS</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </main>
